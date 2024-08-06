@@ -10,7 +10,8 @@ Fansly Downloader is the latest innovative tool designed for efficient and easy 
 ![Enable Developer mode](./images/fanslydownloader-enable-developer-mode.png)
 4. **Click on the Load Unpacked button.**
 
-![Load Unpacked button](./images/images/fanslydownloader-load-extension.png)
+![Load Unpacked button](./images/fanslydownloader-load-extension.png)
+
 5. **Select the directory with the unpacked Fansly™ Downloader ZIP file from step 1.**
 
 Fansly™ Downloader is now installed on your browser.
