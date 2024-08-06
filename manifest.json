@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "action": {},
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage",
+    "identity",
+    "downloads",
+    "system.display",
+    "scripting"
+  ],
+  "icons": {
+    "16": "src/assets/icon-16.png",
+    "48": "src/assets/icon-48.png",
+    "128": "src/assets/icon-128.png"
+  },
+  "name": "Fansly™ Downloader",
+  "short_name": "Fansly",
+  "description": "One click to download fansly images and videos.",
+  "version": "1.5.4",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiLT7MMEOLVU1kajDPIQIWBzBx1wY4vaO+J7MS+Zb+G+JqljRyh/oQzB7HMiOMv8CiC/y4e4y9CLoH5cqx1Gnpw2LhNx0h2yZkNXhULHK4Ap13HJpU5IPMc1yzdaNcVIEN56gKAgBbMAFq9TkPBgzIqiAN901kFwG3+ApMCkowTmTf6/MfMw58ufW1e0obrmk4mO98gnKGpKHi0Qm6VMtUf/5ET/xYYHQUiddZsyqgG9HeNOpLt8NlbpYibit+Q1/CLx2+iU2NgZH99QhEQUcQtCl2ubCHt7cKHXBLs0Mc0loBHR4ILXvZ2lEu4FEIzPgsqy1E4RsPf7n1NNbkhncowIDAQAB",
+  "oauth2": {
+    "client_id": "180346679292-ldl4anl6ebbn3aoibl37kmu0fgaado9d.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
+  "host_permissions": [
+    "*://*.fansly.com/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content.ts-loader-DUoorwyh.js"
+      ],
+      "matches": [
+        "*://*.fansly.com/*"
+      ],
+      "css": [
+        "assets/style.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "js": [
+        "assets/injectDailyCheck.ts-loader-BRnuCiiC.js"
+      ],
+      "matches": [
+        "*://*.fansly.com/*"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "*://*.fansly.com/*"
+      ],
+      "resources": [
+        "assets/content.ts-D5dS7MBk.js",
+        "assets/injectDailyCheck.ts-B4SNmCmd.js"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}
