@@ -20,7 +20,7 @@
   "name": "Fansly™ Downloader",
   "short_name": "Fansly",
   "description": "One click to download fansly images and videos.",
-  "version": "1.5.4",
+  "version": "1.5.6",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiLT7MMEOLVU1kajDPIQIWBzBx1wY4vaO+J7MS+Zb+G+JqljRyh/oQzB7HMiOMv8CiC/y4e4y9CLoH5cqx1Gnpw2LhNx0h2yZkNXhULHK4Ap13HJpU5IPMc1yzdaNcVIEN56gKAgBbMAFq9TkPBgzIqiAN901kFwG3+ApMCkowTmTf6/MfMw58ufW1e0obrmk4mO98gnKGpKHi0Qm6VMtUf/5ET/xYYHQUiddZsyqgG9HeNOpLt8NlbpYibit+Q1/CLx2+iU2NgZH99QhEQUcQtCl2ubCHt7cKHXBLs0Mc0loBHR4ILXvZ2lEu4FEIzPgsqy1E4RsPf7n1NNbkhncowIDAQAB",
   "oauth2": {
     "client_id": "180346679292-ldl4anl6ebbn3aoibl37kmu0fgaado9d.apps.googleusercontent.com",
