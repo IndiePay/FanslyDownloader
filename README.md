@@ -3,7 +3,7 @@ Fansly Downloader is the latest innovative tool designed for efficient and easy 
 
 # How to Install Fansly™ Downloader from a ZIP File
 
-1. **Download and unpack the [Fansly™ Downloader ZIP](https://github.com/IndiePay/FanslyDownloader/archive/refs/tags/1.5.6.zip) file to a directory of your choice.**
+1. **Download and unpack the [Fansly™ Downloader ZIP](https://github.com/IndiePay/FanslyDownloader/archive/refs/tags/1.5.8.zip) file to a directory of your choice.**
 2. **In Chrome browser, go to `chrome://extensions`.**
 3. **Enable Developer mode.**
 
