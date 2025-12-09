@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "*://apiv3.fansly.com/*",
+      "resourceTypes": ["xmlhttprequest"]
+    },
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Origin",
+          "operation": "set",
+          "value": "https://fansly.com"
+        },
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://fansly.com/"
+        },
+        {
+          "header": "Sec-Fetch-Site",
+          "operation": "set",
+          "value": "same-site"
+        }
+      ]
+    }
+  }
+]
